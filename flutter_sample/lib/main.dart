@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sample/my_container.dart';
 import 'package:flutter_sample/my_scoll.dart';
+import 'package:flutter_sample/rowAndMain.dart';
+import 'package:flutter_sample/work_container_slide17.dart';
 
 void main() {
   runApp(const MainApp());
@@ -14,9 +16,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Flutter Sample',
-      home: MyScllView(
-
-      )
+      home: RowAndMain6()
     );
   }
 }
